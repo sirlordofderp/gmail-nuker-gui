@@ -1,9 +1,11 @@
 {
   "name": "gmail-nuker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "nuker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    ,
+    "start": "node nuker.js"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +13,6 @@
   "description": "",
   "dependencies": {
     "googleapis": "^148.0.0"
+    
   }
 }
